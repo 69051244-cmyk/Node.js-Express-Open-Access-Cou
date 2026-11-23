@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Node.js Express</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Hello <%= username %></h1>
+  <h2>Customers</h2>
+  <ul>
+    <% customers.forEach(function (customer) { %>
+      <li><%= customer %></li>
+    <% }) %>
+  </ul>
+</body>
+</html>
